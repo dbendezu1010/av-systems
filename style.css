@@ -1,0 +1,168 @@
+:root {
+    --white: #FFFFFF;
+    --white-gray: #f7f7f7;
+    --black:#272424;
+    --gold: #f2ab46;
+    --light-gray: #888888;
+    --gray: #929292;
+}
+
+/*My Colors*/
+
+.white-color {
+    color: var(--white);
+}
+
+.white-background {
+    background-color: var(--white);
+}
+
+.white-gray-color {
+    color: var(--white-gray);
+}
+
+.white-gray-background {
+    background-color: var(--white-gray)
+}
+
+.black-color {
+    color: var(--black);
+}
+
+.black-background {
+    background-color: var(--black);
+}
+
+.gold-color {
+    color: var(--gold);
+}
+
+.gold-background {
+    background-color: var(--gold);
+}
+
+.gray-color {
+    color: var(--gray);
+}
+
+.gray-background {
+    background-color: var(--gray);
+}
+
+.light-gray {
+    color: var(--light-gray);
+}
+
+/*Navbar*/
+
+.navbar-logo {
+    font-size: 23px;
+    text-decoration: underline;
+    font-family: monospace;
+    letter-spacing: 2px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    display: block;
+}
+
+/*Hero Section*/
+
+.black-box {
+    background-color: #272424;
+    color: var(--white);
+    padding: 13px 30px;
+}
+
+.gold-box {
+    background-color: var(--white-gray);
+    color: var(--white);
+    padding-left: 100px;
+    position: relative;
+    top: 450px;
+}
+
+.box-wide {
+    min-height: 300px;
+    min-width: 700px;
+}
+
+.hero-text {
+    padding-left: 11rem;
+    padding-bottom: 16rem;
+    padding-top: 3rem;
+}
+
+.subtitle-text {
+    padding-top: 8px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 761px;
+    height: 495px;
+    left: 582px;
+    top: calc(50% - 495px/2 - 1991px);
+    background: url(hero-image.png);
+    filter: drop-shadow(10px 15px 20px rgba(0, 0, 0, 0.25));
+
+}
+
+@media only screen and (max-width: 700px) {
+    .box-wide, .gold-box {
+       width: 500px;
+    }
+}
+
+
+
+/*About Section*/
+
+.about-heading {
+    margin: 0 auto;
+    padding: 10px 5px 2px 10px;
+}
+
+.about-subheading {
+    margin: 0 auto;
+    padding: 1px 2px 10px 10px;
+}
+
+.about-title {
+
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 30px 5px 0px 10px;
+    margin: 0 auto;
+    line-height: 26px;
+}
+
+.about-subtitle {
+    padding: 5px 10px 15px 10px;
+    margin: 0 auto;
+}
+
+.about-me {
+    padding: 15px 40px;
+    margin: 0 auto;
+}
+
+.box-text {
+    padding-left: 5rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+/*Image*/
+
+.about-image {
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Footer*/
